@@ -1,8 +1,13 @@
-> **Commercial status:** Preview scaffold only. This repository is not currently a verified production-ready paid product. Do not treat it as commercially ready until this banner is removed.
+> **Commercial status:** Preview/unverified starter. This repository is not the current flagship and is not currently a commercially verified paid product.
+
+
+## Current Status
+
+This repository is a preview/unverified starter. It is not the active flagship and is not currently commercially verified. Do not treat it as a ready-to-buy production package until this notice is removed after a fresh commercial-readiness check.
 
 # PDF/Document RAG API Starter
 
-A production-ready FastAPI service for building PDF/document RAG (Retrieval-Augmented Generation) systems. Ingest PDFs, embed them into pgvector, and query with typed answers and page-level citations. Built on **pydantic-ai** for structured outputs and **FastAPI** for the HTTP layer.
+A preview FastAPI service for building PDF/document RAG (Retrieval-Augmented Generation) systems. Ingest PDFs, embed them into pgvector, and query with typed answers and page-level citations. Built on **pydantic-ai** for structured outputs and **FastAPI** for the HTTP layer.
 
 ## Overview
 
@@ -17,7 +22,7 @@ Stop wrestling with notebook-only LangChain tutorials. This template gives you:
 - Typed citation objects (`{document_id, page, snippet, score}`)
 - Docker Compose for one-command Postgres setup
 
-Ships with sensible defaults: OpenAI embeddings (`text-embedding-3-small`), GPT-4o-mini for generation, 800-token chunks with 100-token overlap. Swap any of these via `.env`.
+Sketches sensible defaults: OpenAI embeddings (`text-embedding-3-small`), GPT-4o-mini for generation, 800-token chunks with 100-token overlap. Swap any of these via `.env`.
 
 ## What it does
 
