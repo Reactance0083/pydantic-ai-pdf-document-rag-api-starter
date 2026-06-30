@@ -1,3 +1,5 @@
+> **Commercial status:** Preview scaffold only. This repository is not currently a verified production-ready paid product. Do not treat it as commercially ready until this banner is removed.
+
 # PDF/Document RAG API Starter
 
 A production-ready FastAPI service for building PDF/document RAG (Retrieval-Augmented Generation) systems. Ingest PDFs, embed them into pgvector, and query with typed answers and page-level citations. Built on **pydantic-ai** for structured outputs and **FastAPI** for the HTTP layer.
