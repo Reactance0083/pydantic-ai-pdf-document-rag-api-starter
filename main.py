@@ -1,7 +1,7 @@
 """
-PDF/Document RAG API Starter | pydantic-ai + FastAPI scaffold
-Production-ready PDF document retrieval and QA system starter.
-Full working source: https://reactance0083.gumroad.com
+Document RAG API Design.
+Public interface scaffold: document, query, and response schemas.
+Ingestion and retrieval are placeholders; see README for the implementation boundary.
 """
 
 # -- Preview scaffold (non-functional) --
@@ -41,7 +41,7 @@ class RAGResponse(BaseModel):
     confidence: float = Field(default=0.0, description="Response confidence score")
 
 
-# The full version includes:
+# Proposed extensions; not implemented in this public scaffold:
 # - PDF text extraction (PyPDF2, pdfplumber)
 # - Vector embeddings (OpenAI, Ollama, HuggingFace)
 # - Semantic search with Pinecone/Weaviate/Milvus
